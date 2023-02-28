@@ -1,0 +1,142 @@
+.card__box {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 1em;
+    border: 12px solid white;
+    color: aliceblue;
+    overflow: hidden;
+    transition: transform 150ms ease;
+    cursor: pointer;
+     
+    
+}
+
+.card__box:hover{
+    transform: scale(1.05);
+}
+
+.card__header {
+    height: 200px;
+    background-color: rgb(136, 130, 130);
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__img{
+    width: 70%;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+}
+
+.card__container-types {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 0.6rem;
+    margin-right: 40px;
+}
+
+.card__hr {
+    border: none;
+    border-top: 2px solid #7772;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.2em;
+}
+
+
+.card__types {
+    display: flex;
+    border: 2px solid white;
+    padding: 0.1em;
+}
+
+.card__info {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.4em;
+    justify-content: center;
+    
+
+}
+
+.card__info2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7em;
+    margin-bottom: 0.4em;
+}
+
+.card__abilities {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__span {
+
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+
+.bg-grass {
+    background-image: radial-gradient(circle at -16.45% 25.82%, #ffda9c 0, #ffdd9a 5.56%, #fde099 11.11%, #f4e399 16.67%, #eae69b 22.22%, #e0e99e 27.78%, #d6eca2 33.33%, #cbeea7 38.89%, #c0f0ae 44.44%, #b5f2b5 50%, #aaf4bd 55.56%, #9ff5c6 61.11%, #94f6cf 66.67%, #8af7d9 72.22%, #80f7e2 77.78%, #77f7ec 83.33%, #70f7f6 88.89%, #6bf7ff 94.44%, #68f6ff 100%);
+}
+
+.bg-fire {
+    background-image: radial-gradient(circle at 46.45% 42.39%, #daffb7 0, #dfffa7 7.14%, #e4f996 14.29%, #e8ef85 21.43%, #ebe373 28.57%, #eed561 35.71%, #f0c64e 42.86%, #f2b53c 50%, #f4a32c 57.14%, #f69221 64.29%, #f8801d 71.43%, #fb6d20 78.57%, #fe5a27 85.71%, #ff4431 92.86%, #ff293d 100%);
+}
+
+.bg-water {
+    background-image: radial-gradient(circle at 38.53% 92.8%, #a8ffff 0, #a6ffff 25%, #9dd5f2 50%, #8da5b5 75%, #787c80 100%);
+}
+
+.bg-bug {
+    background-image: radial-gradient(circle at 87.4% 87.4%, #7b7f78 0, #75786d 8.33%, #6f7160 16.67%, #696852 25%, #645e42 33.33%, #5f5231 41.67%, #59451f 50%, #54380e 58.33%, #502b00 66.67%, #4d1d00 75%, #4b0e00 83.33%, #4a0000 91.67%, #480000 100%);
+}
+
+.border-grass {
+    border-color:#a1c7a1 ;
+}
+
+.border-fire {
+    border-color:#e25545 ;
+}
+
+.border-water {
+    border-color:#9dd5f2 ;
+}
+
+.border-bug {
+    border-color:#5f3f0f ;
+}
+
+.color-grass {
+    color:#74d174 ;
+}
+
+.color-fire {
+    color:#d84434 ;
+}
+
+.color-water {
+    color:#53b6e7 ;
+}
+
+
+.color-bug {
+    color:#d18512 ;
+}
